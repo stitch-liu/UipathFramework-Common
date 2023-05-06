@@ -1,0 +1,1 @@
+"C:\Users\stitch.liu\AppData\Local\Programs\UiPath\Studio\UiRobot.exe" execute --file "C:\Users\Stitch Liu\Desktop\project folder\UIPath Testing Project\Project Working APP\RPA Framework Library\RPA Framework\RPA Handling\RPA Exception Handling\Flowchart Log Saving TXT.xaml" --input "{'ExceptionType':'System Test','ExceptionLog':'None'}"

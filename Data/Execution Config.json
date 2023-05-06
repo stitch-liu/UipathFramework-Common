@@ -1,0 +1,8 @@
+﻿{
+	"Version":"ver 1.0.0",
+	"Comment":"this config is used for the process execution.",
+	"Period":"2023-04",
+	"Database":{
+	    "Initialize":false		
+	}
+}

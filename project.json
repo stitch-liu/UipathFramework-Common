@@ -1,0 +1,158 @@
+{
+  "name": "Robotic Enterprise Framework",
+  "description": "1. can save log to database and txt by automation.\r\n2. can save process status, and keep running the process in the status saved. \r\n3. can call the auto uipath project for run and package others.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.Excel.Activities": "[2.20.0-preview]",
+    "UiPath.FTP.Activities": "[2.3.0]",
+    "UiPath.Mail.Activities": "[1.19.0]",
+    "UiPath.Python.Activities": "[1.6.0]",
+    "UiPath.System.Activities": "[23.4.1-preview]",
+    "UiPath.Testing.Activities": "[23.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.4.1-preview]",
+    "UiPath.WebAPI.Activities": "[1.16.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Lib/SFTP/Sequence download data from SFTP.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule DB Operator/Sequence Complete Working Task.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule DB Operator/Sequence Get Machine Resource.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule DB Operator/Sequence Get Working Task.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule DB Operator/Sequence Set Next Working Task.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule DB Operator/Sequence Update Working Task Execution Time.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule Process/Flowchart 01 Initial Dynamic Schedule.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule Process/Flowchart 02 Dynamic Schedule Execution.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule Process/Flowchart 03 Dynamic Schedule Execution Time Update.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule Process/Flowchart 04 Dynamic Schedule Working Task Completion.xaml",
+        "Component/RPA Dynamic Schedule/RPA Dynamic Schedule Process/Flowchart Dynamic Schedule Web Service.xaml",
+        "Tests/Demo_Folder/Lib/Json/JsonTesting.xaml",
+        "Tests/Demo_Folder/Core/RPA Exception/Exception Log Saving.xaml",
+        "Tests/Demo_Folder/Core/RPA Execution/Uipath RPA Project Execution.xaml",
+        "Tests/Demo_Folder/Core/RPA Execution/Uipath RPA Project Package.xaml",
+        "Tests/Demo_Folder/Component/RPA Database Component/SQL Server/Exception Database Handling/Datatable Initialize.xaml",
+        "Tests/Demo_Folder/Component/RPA Database Component/SQL Server/Exception Database Handling/Insert Exception.xaml",
+        "Tests/Demo_Folder/Core/Database Handling/Database Initialize.xaml",
+        "Tests/Demo_Folder/Component/RPA Database Component/SQL Server/Procss Status Handling/Datatable Initialize.xaml",
+        "Tests/Demo_Folder/Component/RPA Database Component/SQL Server/Procss Status Handling/Status Update.xaml",
+        "Tests/Demo_Folder/Component/RPA Database Component/SQL Server/Procss Status Handling/Process Start.xaml",
+        "Tests/Demo_Folder/Core/Database Handling/Common/Database Initialize.xaml",
+        "Tests/Demo_Folder/Core/Database Handling/Process Status Handling/Process Completed.xaml",
+        "Tests/Demo_Folder/Core/Database Handling/Process Status Handling/Get Ready Process Data.xaml",
+        "Tests/Uipath Object Testing/Testing.xaml",
+        "Tests/Component/RPA Database Component/SQL Server/Credential Handling/Datatable Initialize.xaml",
+        "Tests/Component/RPA Database Component/SQL Server/Exception Database Handling/Datatable Initialize.xaml",
+        "Tests/Component/RPA Database Component/SQL Server/Exception Database Handling/Insert Exception.xaml",
+        "Tests/Uipath Object Testing/Get OC Credential.xaml",
+        "Tests/Uipath Object Testing/Get OC Queue Item.xaml",
+        "Tests/Demo/Process.xaml",
+        "Tests/Demo/Sub Process.xaml",
+        "Tests/Lib/Json/JsonTesting.xaml",
+        "Tests/Core/Database Handling/Credential Handling/Insert Credential.xaml",
+        "Tests/Core/Database Handling/Process Status Handling/Get Ready Process Data.xaml",
+        "Tests/Core/Database Handling/Process Status Handling/Process Completed.xaml",
+        "Tests/Core/Database Handling/Common/Database Initialize.xaml",
+        "Tests/Core/RPA Exception/Exception Log Saving.xaml",
+        "Tests/Core/RPA Execution/Uipath RPA Project Execution.xaml",
+        "Tests/Core/RPA Execution/Uipath RPA Project Package.xaml",
+        "Tests/Core/Database Handling/Credential Handling/Update Credential.xaml",
+        "Tests/Component/RPA Database Component/SQL Server/Procss Status Handling/Datatable Initialize.xaml",
+        "Tests/Component/RPA Database Component/SQL Server/Procss Status Handling/Process Start.xaml",
+        "Tests/Component/RPA Database Component/SQL Server/Procss Status Handling/Status Update.xaml",
+        "Tests/Lib/Encryption Handling/Base64/Base64 Encryption.xaml",
+        "Tests/Core/System Excel Handling/Credential Handling/Update Credential.xaml",
+        "Tests/Core/System Execution Handling/Credential/Get Credential.xaml",
+        "Tests/Core/System Execution Handling/Credential/Update Credential.xaml",
+        "Tests/Extention APP/Extention QueueItem/Sequence Convert QueueItem To DataRow.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1bb3b026-beef-4e40-a282-f3b3334fd5aa",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "48dfa8e1-d5c6-4d5f-9278-638d5bd825ac",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fd5dac61-c027-46b1-a52e-e5a3fbf55939",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "53a34353-b078-4cc4-a1a2-13cf9c4b0ff4",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d143e6c0-207d-4139-9f83-6f4ea321cfe3",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "04b6dec0-01c4-4757-b0ee-0de489782b0b",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "664397b5-f315-43f3-8136-05552faa0ab3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

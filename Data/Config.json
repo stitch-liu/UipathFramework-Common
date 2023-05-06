@@ -1,0 +1,56 @@
+﻿{
+	"Version":"ver 1.0.0",
+	"Comment":"this config is used for setup the whole system.",
+	"Database":{
+	    "Valid":true,
+		"Comment":"when valid is true, we can use database for saving base data to database. SystemDBType is the database type, such as 'SQL Server', 'MySQL'. we only have one system database.",
+        "SystemDBType":"SQL Server",
+        "SystemDB":{
+		    "Comment":"system database will save all of the system information, such as server, base table name.we will set the connection string for all the database we need to used.table processStatus uses for saving all of the process status from system. we can use 'taskName' and 'period' to confirm the only one data from datatable_processStatus",
+		    "DBServer":"DESKTOP-EG5KJMG\\MSSQLSERVER2019",
+			"Port":"",
+			"AccountName":"sa",
+			"Password":"123",
+			"DatabaseName":"RobotSystemUipath",
+			"MDFPath":"‪D:\\Program Files\\Microsoft SQL Server\\MSSQL15.MSSQLSERVER2019\\MSSQL\\DATA\\",
+			"LogPath":"‪D:\\Program Files\\Microsoft SQL Server\\MSSQL15.MSSQLSERVER2019\\MSSQL\\DATA\\",
+			"TableName_Exception":"ExceptionLog",
+			"TableName_ProcessStatus":"ProcessStatus",
+			"TableName_ProcessStatus_KeyStatus":["processStatus1","processStatus2","processStatus3"],
+			"TableName_Credential":"Credential"
+		}		
+	},
+	"Exception":{
+	    "Valid":true,
+		"Comment":"when valid is true, we can save the exception.*Flag means what the exception log needs to save.",
+		"TXTFlag":true,
+		"DatabaseFlag":true
+	},
+	"Credential":{
+	    "Valid":true,
+		"Comment":"we can save the credential account for the system, such as database, excel file. SaveType can be set 'Excel', 'Database', 'Orchestrator'. if we choose 'Database', we will use the setting in the database",
+		"SaveType":"Excel"
+	},
+	"Excel":{
+	    "CredentialFile":"Data\\System Information\\SystemAccount.xlsx"
+	},
+	"Code":{
+	    "Valid":true,
+		"Comment":"it will use the setting for the code, we can save such as command path and some useful things",
+	    "Python":{
+		    "CommandPath":"C:\\Users\\stitch.liu\\AppData\\Local\\Programs\\Python\\Python39\\Python.exe"
+		}
+	},
+	"Transaction":{
+	    "Valid":true,
+		"Comment":"it will use for the system's transaction data, for example, what the transaction data from, Database, OC, Excel.",
+		"DataType":"Database",
+		"RetryNumberGetTransactionItem":"2"
+	},
+	"Orchestrator":{
+	    "Valid":true,
+		"Comment":"this is the settings for the Orchestrator",
+		"OrchestratorQueueFolder":"EnterpriseFramework",
+		"OrchestratorQueueName":"Execution Task Work Queue"
+	}
+}

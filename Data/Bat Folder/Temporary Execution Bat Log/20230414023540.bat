@@ -1,0 +1,1 @@
+"C:\Users\stitch.liu\AppData\Local\Programs\UiPath\Studio\UiRobot.exe" execute --file "D:\workstation\02 coding\RPA\UiPath\testProject\Testing Process\Main.xaml"

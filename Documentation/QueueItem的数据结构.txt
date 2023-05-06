@@ -1,0 +1,44 @@
+QueueItem 
+{
+  AssignedTo=null,
+  DeferDate=null,
+  DueDate=null,
+  Id=331004045,
+  ItemKey=[8b84ba95-a456-43ce-8bb8-f03351ca3b91],
+  LastProcessingOn=null,
+  Output=null,
+  Priority=Normal,
+  ProcessingException=null,
+  Progress="",
+  QueueDefinitionId=771323,
+  QueueName="Execution Task Work Queue",
+  Reference="",
+  RetryNo=0,
+  ReviewStatus="None",
+  RowVersion=byte[8] 
+  {
+    0,
+    0,
+    0,
+    0,
+    43,
+    152,
+    49,
+    11 
+  },
+  SpecificContent=Dictionary<string, object>(2) 
+  {
+    
+    {
+      "TaskName",
+      "task1" 
+    },
+    
+    {
+      "Period",
+      "2024-03" 
+    }
+  },
+  StartTransactionTime=[05/04/2023 18:13:41],
+  Status=InProgress 
+}
