@@ -7,10 +7,10 @@
         "SystemDBType":"SQL Server",
         "SystemDB":{
 		    "Comment":"system database will save all of the system information, such as server, base table name.we will set the connection string for all the database we need to used.table processStatus uses for saving all of the process status from system. we can use 'taskName' and 'period' to confirm the only one data from datatable_processStatus",
-		    "DBServer":"DESKTOP-EG5KJMG\\MSSQLSERVER2019",
+		    "DBServer":"数据库地址",
 			"Port":"",
-			"AccountName":"sa",
-			"Password":"123",
+			"AccountName":"数据库账号",
+			"Password":"数据库密码",
 			"DatabaseName":"RobotSystemUipath",
 			"MDFPath":"‪D:\\Program Files\\Microsoft SQL Server\\MSSQL15.MSSQLSERVER2019\\MSSQL\\DATA\\",
 			"LogPath":"‪D:\\Program Files\\Microsoft SQL Server\\MSSQL15.MSSQLSERVER2019\\MSSQL\\DATA\\",

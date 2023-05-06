@@ -1,5 +1,5 @@
 {
-  "name": "Robotic Enterprise Framework",
+  "name": "Robotic Enterprise Framework PwC",
   "description": "1. can save log to database and txt by automation.\r\n2. can save process status, and keep running the process in the status saved. \r\n3. can call the auto uipath project for run and package others.",
   "main": "Main.xaml",
   "dependencies": {
